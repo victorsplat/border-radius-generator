@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <title>Border Radius Generator</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="main-title-container">
+        <h1 class="main-title">
+          Border-Radius Generator
+        </h1>
+      </div>
+      <div class="box-border-radius">
+        <div class="box"></div>
+      </div>
+      <div class="slidecontainer">
+        <h1 class="slider-title">First Border-Radius Value:</h1>
+        <div class="range">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            sliderId="1"
+          />
+          <p class="range-value" rangeNumber="1">0%</p>
+        </div>
+        <h1 class="slider-title">Second Border-Radius Value:</h1>
+        <div class="range">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            sliderId="2"
+          />
+          <p class="range-value" rangeNumber="2">0%</p>
+        </div>
+        <h1 class="slider-title">Third Border-Radius Value:</h1>
+        <div class="range">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            sliderId="3"
+          />
+          <p class="range-value" rangeNumber="3">0%</p>
+        </div>
+        <h1 class="slider-title">Fourth Border-Radius Value:</h1>
+        <div class="range">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            sliderId="4"
+          />
+          <p class="range-value" rangeNumber="4">0%</p>
+        </div>
+      </div>
+      <div class="copy-container">
+        <input type="button" class="copy" value="Copy to Clipboard" />
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slider.js"></script>
+    <script src="js/copyToClipboard.js"></script>
+  </body>
+</html>
