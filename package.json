@@ -1,0 +1,22 @@
+{
+  "name": "border-radius-visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorsplat/border-radius-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorsplat/border-radius-generator/issues"
+  },
+  "homepage": "https://victorsplat.github.io/border-radius-generator",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
